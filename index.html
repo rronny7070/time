@@ -34,6 +34,7 @@ setInterval(function() {
   let date = new Date();
   let h = date.getHours();
   let m = date.getMinutes();
+	
   let s = date.getSeconds();
   if (h > 12) {
     document.querySelector('#time').innerHTML = h - 12 + '시' + m + '분' + s + '초';
